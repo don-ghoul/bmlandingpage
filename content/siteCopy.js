@@ -29,7 +29,7 @@ window.BenchmarkERSCopy = {
   home: {
     hero: {
       eyebrow: "Built for standards-aligned instruction",
-      title: "See which standards you\u2019re teaching\u2014automatically.",
+      title: "Seeple which standards you\u2019re teaching\u2014automatically.",
       subhead:
         "Benchmark ERS is a Google Classroom plugin that adds an Academic Standards tab, so teachers and leaders can track what is addressed, assessed, and still missing across classwork.",
       primaryCta: "Request a Demo",
