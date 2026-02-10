@@ -31,7 +31,7 @@ window.BenchmarkERSCopy = {
       eyebrow: "Excellence In Standards.",
       title: "Automatic standards alignment for every lesson.",
       subhead:
-        "Benchmark ERS automatically detects and assigns curricular standards to lesson plans and assessments, embeds them exactly where they occur in teachers’ curricula, and connects them to student mastery outcomes in interactive tables and calendars.",
+        "Benchmark ERS automatically detects and assigns curricular standards to lesson plans and assessments, embeds them exactly where they occur in teachers’ curricula, and connects them to student mastery outcomes in a flexible and interactive interface.",
       primaryCta: "Request a Demo",
       secondaryCta: "See How It Works",
       imageAlt: "Abstract dashboard visualization for curriculum and standards tracking"
@@ -49,7 +49,7 @@ window.BenchmarkERSCopy = {
     solution: {
       title: "The Benchmark ERS Solution",
       intro:
-        "Benchmark ERS makes standards truly visible by embedding them directly into teachers’ existing curricula, linking them to student outcomes, and surfacing role-based views for districts, schools, and teachers.",
+        "Benchmark ERS makes standards truly visible by embedding them directly into teachers’ existing curricula, linking them to student outcomes, and facilitating management and administration for districts, schools, and teachers.",
       points: [
         "Automatically detect and assign standards to lesson plans, assessments, and other curriculum artifacts.",
         "See where each standard is addressed, assessed, or missing in interactive tables and visualizations.",
@@ -60,20 +60,20 @@ window.BenchmarkERSCopy = {
       title: "How It Works",
       steps: [
         {
-          title: "1) Connect Curriculum & Calendars",
-          body: "Connect your existing curricula and calendars so Benchmark ERS can align them to state and district standards expectations."
-        },
-        {
-          title: "2) Detect & Embed Standards",
+          title: "1) Detect",
           body: "Benchmark ERS automatically detects curricular standards in lesson plans and assessments and embeds them exactly where they occur in teachers’ materials."
         },
         {
-          title: "3) Review in Tables & Calendars",
-          body: "Explore interactive tables and calendars to compare which standards are addressed, assessed, or missing across classes, schools, and districts in real time."
+          title: "2) Connect",
+          body: "Synchronize your lesson plans with your calendar so you can track and manage how standards are being addressed throughout the year alongside state and district expectations."
         },
         {
-          title: "4) Act on Insights",
-          body: "Use standard- and role-based views of student mastery outcomes to adjust instruction, target professional development, and plan intentional classroom support throughout the year."
+          title: "3) Review",
+          body: "Explore interactive tables and visuals to compare which standards are addressed, assessed, or missing across classes, schools, and districts in real time."
+        },
+        {
+          title: "4) Act",
+          body: "Use insights of standards-implementation and views of student mastery outcomes to adjust instruction, target professional development, and plan intentional classroom support throughout the year."
         }
       ]
     },
@@ -134,7 +134,7 @@ window.BenchmarkERSCopy = {
         },
         {
           title: "Flexible Standards Sources",
-          body: "Keeps pace with evolving state and district standards, with libraries that can be managed from sources such as GitHub, Excel, or CSV files."
+          body: "Keeps pace with evolving state and district standards, with continuously updated libraries."
         }
       ]
     },
@@ -143,6 +143,7 @@ window.BenchmarkERSCopy = {
       intro:
         "Benchmark ERS is designed with practical data stewardship in mind. We describe controls clearly and avoid overclaiming.",
       points: [
+        "FERPA & COPPA compliance.",
         "Uses least-privilege access patterns where possible.",
         "School teams remain in control of standards configuration and review workflows.",
         "Product documentation reflects current practices and stays aligned with evolving standards and district expectations."
@@ -154,32 +155,27 @@ window.BenchmarkERSCopy = {
         {
           question: "Does Benchmark ERS replace our LMS?",
           answer:
-            "No. It works alongside your existing LMS (such as Canvas, Schoology, or Google Classroom) by adding standards intelligence, interactive tables, and calendars that connect curriculum to student outcomes."
+            "No. It works alongside your existing LMS (such as Canvas, Schoology, or Google Classroom) by adding standards intelligence, interactive tables, and seamless synchronization that connect curriculum to student outcomes."
         },
         {
           question: "Can we review standards matches before acting on them?",
           answer:
-            "Yes. Teams can inspect where standards appear in lesson plans and assessments and confirm whether detected standards are instructionally correct."
+            "Yes. Users can manually override where standards appear in lesson plans and assessments and make adjustments as deemed necessary."
         },
         {
           question: "Which standards frameworks are supported?",
           answer:
-            "Benchmark ERS stays up to date with evolving state and district standards and can support common frameworks such as NGSS and CCSS, as well as district-managed standards libraries."
+            "Benchmark ERS stays up to date with evolving state and district standards and also supports common frameworks such as NGSS and CCSS, as well as district-managed standards libraries."
         },
         {
           question: "Can leaders compare standards status across classes, schools, and districts?",
           answer:
-            "Yes. Role-based, interactive tables and calendars allow district and school representatives to filter by organization, teacher, or course to see addressed, assessed, and missing standards in real time."
-        },
-        {
-          question: "How does mastery analytics work?",
-          answer:
-            "Mastery views connect student performance to the specific standards being taught and assessed, summarizing outcomes at the district-, school-, and teacher-level."
+            "Yes. Organizational role-based, interactive tables and calendars allow district and school representatives to filter by district, school, teacher, or course to see standards application in real time."
         },
         {
           question: "How does this support professional development?",
           answer:
-            "Real-time visibility into standards coverage and mastery outcomes helps districts tailor intentional, targeted professional development and classroom support while saving time on manual check-ins."
+            "Real-time visibility into standards coverage and mastery outcomes helps districts tailor intentional, targeted professional development and classroom support while saving time and resources on indiscriminate check-ins and expenditures."
         },
         {
           question: "Can we start small?",
@@ -199,13 +195,13 @@ window.BenchmarkERSCopy = {
     hero: {
       title: "About Benchmark ERS",
       subhead:
-        "We help educators connect lesson design, assessments, and standards visibility in one practical workflow.",
+        "We help educators, schools, and districts connect lesson design, assessments, and standards visibility in one practical workflow.",
       imageAlt: "Abstract collaboration illustration"
     },
     mission: {
       title: "Our Mission",
       body:
-        "Benchmark ERS exists to reduce the manual burden of standards alignment so educators can spend more time on instructional decisions that improve student outcomes."
+        "Benchmark ERS exists to reduce the manual burden of standards alignment so educators can spend more time on instructional decisions that improve student outcomes and districts can provide purposeful support for their teachers."
     },
     forWho: {
       title: "Who It's For",
@@ -227,7 +223,7 @@ window.BenchmarkERSCopy = {
     nameMeaning: {
       title: "What Benchmark ERS Means",
       body:
-        "Benchmark ERS stands for Educational Readiness & Standards, reflecting our focus on actionable alignment data that helps teams prepare students for benchmark expectations."
+        "Benchmark ERS stands for Evaluation Readiness Systems, reflecting our focus on actionable alignment data that helps teams prepare students for benchmark expectations."
     },
     roadmap: {
       title: "Roadmap Snapshot",
@@ -239,7 +235,7 @@ window.BenchmarkERSCopy = {
         },
         {
           title: "Analytics Tab",
-          body: "Expanded mastery and growth views to support instructional planning cycles."
+          body: "Expanded mastery and growth evaluations to support instructional planning cycles."
         },
         {
           title: "District View",
