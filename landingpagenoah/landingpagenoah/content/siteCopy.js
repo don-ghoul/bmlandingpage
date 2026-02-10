@@ -28,71 +28,71 @@ window.BenchmarkERSCopy = {
   },
   home: {
     hero: {
-      eyebrow: "Built for standards-aligned instruction",
-      title: "See which standards you\u2019re teaching\u2014automatically.",
+      eyebrow: "Excellence In Standards.",
+      title: "Automatic standards alignment for every lesson.",
       subhead:
-        "Benchmark ERS is a Google Classroom plugin that adds an Academic Standards tab, so teachers and leaders can track what is addressed, assessed, and still missing across classwork.",
+        "Benchmark ERS automatically detects and assigns curricular standards to lesson plans and assessments, embeds them exactly where they occur in teachers’ curricula, and connects them to student mastery outcomes in a flexible and interactive interface.",
       primaryCta: "Request a Demo",
       secondaryCta: "See How It Works",
-      imageAlt: "Abstract dashboard visualization for standards tracking"
+      imageAlt: "Abstract dashboard visualization for curriculum and standards tracking"
     },
     problem: {
       title: "The Problem",
       intro:
-        "Schools invest heavily in curriculum and assessments, but standards coverage is still hard to verify quickly.",
+        "Curricular standards are complex and constantly evolving, but most tools still treat them as static checklists instead of living parts of daily instruction.",
       points: [
-        "Teachers track standards manually across many documents and assignments.",
-        "Leaders struggle to spot standards gaps before benchmark windows.",
-        "Coverage and assessment evidence often live in separate tools."
+        "Teachers must manually track which standards are addressed, assessed, or missing across scattered documents and assignments.",
+        "Leaders lack real-time visibility into how standards are implemented across districts, schools, and classrooms.",
+        "Student mastery outcomes are often disconnected from the specific standards they are meant to represent."
       ]
     },
     solution: {
-      title: "The Solution",
+      title: "The Benchmark ERS Solution",
       intro:
-        "Benchmark ERS brings standards visibility into daily classroom workflow with fast filtering, clear status labels, and drill-down links back to instruction.",
+        "Benchmark ERS makes standards truly visible by embedding them directly into teachers’ existing curricula, linking them to student outcomes, and facilitating management and administration for districts, schools, and teachers.",
       points: [
-        "Analyze existing classwork without requiring teachers to start over.",
-        "Surface standards status by class, grade level, and appendix.",
-        "Connect each standard to where it appears in planning and assessment."
+        "Automatically detect and assign standards to lesson plans, assessments, and other curriculum artifacts.",
+        "See where each standard is addressed, assessed, or missing in interactive tables and visualizations.",
+        "Connect standards coverage to student performance and mastery so teams can act on real-time evidence."
       ]
     },
     howItWorks: {
       title: "How It Works",
       steps: [
         {
-          title: "1) Connect",
-          body: "Install the Google Classroom plugin and choose standards settings for state and grade levels."
+          title: "1) Detect",
+          body: "Benchmark ERS automatically detects curricular standards in lesson plans and assessments and embeds them exactly where they occur in teachers’ materials."
         },
         {
-          title: "2) Detect",
-          body: "Benchmark ERS scans lesson plans, assignments, quizzes, topics, and classwork questions for standards signals."
+          title: "2) Connect",
+          body: "Synchronize your lesson plans with your calendar so you can track and manage how standards are being addressed throughout the year alongside state and district expectations."
         },
         {
           title: "3) Review",
-          body: "Open the Academic Standards tab to review addressed, assessed, and missing standards with filters."
+          body: "Explore interactive tables and visuals to compare which standards are addressed, assessed, or missing across classes, schools, and districts in real time."
         },
         {
           title: "4) Act",
-          body: "Jump directly into linked classroom artifacts and close coverage gaps with evidence-based planning."
+          body: "Use insights of standards-implementation and views of student mastery outcomes to adjust instruction, target professional development, and plan intentional classroom support throughout the year."
         }
       ]
     },
     features: {
       title: "Core Features",
-      intro: "Designed to support daily instruction, curriculum alignment, and leadership reporting.",
+      intro: "Built to support standards-aligned instruction, leadership visibility, and continuous improvement across districts.",
       items: [
-        "Auto-detect standards on lesson plans, assignments, quizzes, topics, and questions in Classwork.",
-        "Standards Settings: state + grade levels, with possible per-class configuration in future releases.",
-        "Standards List: filter by class, grade, appendix (NGSS/CCSS), addressed/assessed/missing, and topic groups.",
-        "Hover a standard to see linked lesson plans and assessments.",
-        "Use the View standards toggle inside lesson plans and assessments with highlighted regions plus sidebar navigation.",
-        "Google Slides support: navigate from standards directly to the slides where they appear.",
-        "Mastery analytics: see the percent of students mastering each standard."
+        "Automatic detection and assignment of curricular standards to lesson plans, assessments, and other instructional artifacts.",
+        "Embedded standards views that appear exactly where standards occur in curricula, not just at the beginning of a unit.",
+        "Interactive standards tables that show which standards are addressed, assessed, or missing across classes, schools, and districts.",
+        "Linked student mastery outcomes and performance for each standard to support evidence-based instructional decisions.",
+        "Calendar synchronization that shows when standards are being taught and assessed, with easy drag-and-drop style adjustments as schedules change.",
+        "Role-based views for district and school representatives to filter by organization, grade, course, or teacher in real time.",
+        "Enterprise-ready integrations with common LMS platforms such as Canvas, Schoology, and Google Classroom, plus SSO with Google, Clever, ClassLink, and Microsoft."
       ]
     },
     legend: {
       title: "Standards Status Legend",
-      intro: "Use these status colors consistently across tabs, lists, and highlights.",
+      intro: "Use these status indicators across tables, views, and calendars to understand standards coverage at a glance.",
       items: [
         {
           statusKey: "addressed",
@@ -125,16 +125,16 @@ window.BenchmarkERSCopy = {
       title: "Integrations",
       items: [
         {
-          title: "Google Workspace",
-          body: "Works with Google Classroom, Google Docs, and Google Slides so teams stay in familiar tools."
+          title: "Learning Management Systems",
+          body: "Seamlessly integrates with common LMS systems such as Canvas, Schoology, and Google Classroom so teachers can keep working in familiar tools."
+        },
+        {
+          title: "Single Sign-On",
+          body: "Supports SSO with providers including Google, Clever, ClassLink, and Microsoft to simplify access for districts and schools."
         },
         {
           title: "Flexible Standards Sources",
-          body: "Standards libraries can come from GitHub, Excel, or CSV files based on district workflow."
-        },
-        {
-          title: "AI + Human Review",
-          body: "AI helps identify likely standards links, while staff review keeps decisions instructional and transparent."
+          body: "Keeps pace with evolving state and district standards, with continuously updated libraries."
         }
       ]
     },
@@ -143,9 +143,10 @@ window.BenchmarkERSCopy = {
       intro:
         "Benchmark ERS is designed with practical data stewardship in mind. We describe controls clearly and avoid overclaiming.",
       points: [
+        "FERPA & COPPA compliance.",
         "Uses least-privilege access patterns where possible.",
         "School teams remain in control of standards configuration and review workflows.",
-        "Product documentation should reflect current practices, not placeholder compliance claims."
+        "Product documentation reflects current practices and stays aligned with evolving standards and district expectations."
       ]
     },
     faq: {
@@ -153,37 +154,40 @@ window.BenchmarkERSCopy = {
       items: [
         {
           question: "Does Benchmark ERS replace our LMS?",
-          answer: "No. It complements Google Classroom by adding standards intelligence to existing workflows."
+          answer:
+            "No. It works alongside your existing LMS (such as Canvas, Schoology, or Google Classroom) by adding standards intelligence, interactive tables, and seamless synchronization that connect curriculum to student outcomes."
         },
         {
           question: "Can we review standards matches before acting on them?",
-          answer: "Yes. Teams can inspect linked artifacts and confirm whether detected standards are instructionally correct."
+          answer:
+            "Yes. Users can manually override where standards appear in lesson plans and assessments and make adjustments as deemed necessary."
         },
         {
           question: "Which standards frameworks are supported?",
-          answer: "Filtering is designed for common frameworks such as NGSS and CCSS, plus district-managed standards libraries."
+          answer:
+            "Benchmark ERS stays up to date with evolving state and district standards and also supports common frameworks such as NGSS and CCSS, as well as district-managed standards libraries."
         },
         {
-          question: "Can leaders compare standards status across classes?",
-          answer: "Yes. Standards lists can be filtered by class and grade to support planning conversations."
+          question: "Can leaders compare standards status across classes, schools, and districts?",
+          answer:
+            "Yes. Organizational role-based, interactive tables and calendars allow district and school representatives to filter by district, school, teacher, or course to see standards application in real time."
         },
         {
-          question: "How does mastery analytics work?",
-          answer: "Mastery views summarize the percent of students meeting each standard based on available assessment evidence."
-        },
-        {
-          question: "Is this only for science teams?",
-          answer: "No. The workflow can support multiple subjects where standards alignment matters."
+          question: "How does this support professional development?",
+          answer:
+            "Real-time visibility into standards coverage and mastery outcomes helps districts tailor intentional, targeted professional development and classroom support while saving time and resources on indiscriminate check-ins and expenditures."
         },
         {
           question: "Can we start small?",
-          answer: "Yes. Many schools begin with one grade band or department and expand after validating workflow fit."
+          answer:
+            "Yes. Many organizations begin with a subset of schools, grade bands, or departments and expand after validating workflow fit and impact."
         }
       ]
     },
     finalCta: {
-      title: "Ready to make standards coverage visible?",
-      body: "See Benchmark ERS in action and discuss a rollout path that fits your team.",
+      title: "Ready to achieve Excellence In Standards?",
+      body:
+        "See Benchmark ERS in action and explore how automatic standards alignment, interactive tables, and real-time mastery views can support your district, schools, and classrooms.",
       button: "Request a Demo"
     }
   },
@@ -191,13 +195,13 @@ window.BenchmarkERSCopy = {
     hero: {
       title: "About Benchmark ERS",
       subhead:
-        "We help educators connect lesson design, assessments, and standards visibility in one practical workflow.",
+        "We help educators, schools, and districts connect lesson design, assessments, and standards visibility in one practical workflow.",
       imageAlt: "Abstract collaboration illustration"
     },
     mission: {
       title: "Our Mission",
       body:
-        "Benchmark ERS exists to reduce the manual burden of standards alignment so educators can spend more time on instructional decisions that improve student outcomes."
+        "Benchmark ERS exists to reduce the manual burden of standards alignment so educators can spend more time on instructional decisions that improve student outcomes and districts can provide purposeful support for their teachers."
     },
     forWho: {
       title: "Who It's For",
@@ -219,11 +223,11 @@ window.BenchmarkERSCopy = {
     nameMeaning: {
       title: "What Benchmark ERS Means",
       body:
-        "Benchmark ERS stands for Educational Readiness & Standards, reflecting our focus on actionable alignment data that helps teams prepare students for benchmark expectations."
+        "Benchmark ERS stands for Evaluation Readiness Systems, reflecting our focus on actionable alignment data that helps teams prepare students for benchmark expectations."
     },
     roadmap: {
       title: "Roadmap Snapshot",
-      intro: "Current focus is strong Classroom standards workflows. Planned exploration areas include:",
+      intro: "Current focus is strong classroom and LMS standards workflows. Planned exploration areas include:",
       items: [
         {
           title: "Classes Tab",
@@ -231,7 +235,7 @@ window.BenchmarkERSCopy = {
         },
         {
           title: "Analytics Tab",
-          body: "Expanded mastery and growth views to support instructional planning cycles."
+          body: "Expanded mastery and growth evaluations to support instructional planning cycles."
         },
         {
           title: "District View",
